@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.vue"],
   theme: {
+    letterSpacing: {
+      button: "0.063rem",
+      title: "0.125rem",
+    },
     fontFamily: {
       jost: ["Jost", "sans-serif"],
     },
