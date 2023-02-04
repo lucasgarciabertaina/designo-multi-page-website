@@ -3,7 +3,6 @@ module.exports = {
   content: ["./index.html", "./src/**/*.vue"],
   theme: {
     letterSpacing: {
-      button: "0.063rem",
       title: "0.125rem",
     },
     fontFamily: {
@@ -17,6 +16,9 @@ module.exports = {
         "light-peach": "#FFAD9B",
         "dark-gray": "#333136",
         "light-gray": "#F1F3F5",
+      },
+      padding: {
+        default: "10.313rem",
       },
     },
   },
