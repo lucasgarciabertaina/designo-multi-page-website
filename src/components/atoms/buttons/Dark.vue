@@ -5,7 +5,7 @@ import DefaultButton from "./Default.vue";
 <template>
   <default-button
     @click="$emit('click')"
-    class="bg-white text-black hover:bg-light-peach hover:text-white"
+    class="bg-white text-default-black hover:bg-light-peach hover:text-white"
     ><slot
   /></default-button>
 </template>

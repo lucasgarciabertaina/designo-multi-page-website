@@ -1,7 +1,7 @@
 @import './base.css';
 
 #app {
-  @apply bg-white text-black; 
+  @apply bg-white text-default-black; 
 }
 
 @media (hover: hover) {
